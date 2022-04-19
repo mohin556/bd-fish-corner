@@ -1,0 +1,22 @@
+.f-image{
+    height: 380px;
+    width: 270px;
+   
+    position: absolute;
+   
+}
+.f-name{
+    color: white;
+    
+   position: relative;
+}
+
+.tryy{
+  
+   color: aqua;
+  
+}
+
+.fish-photo{
+    margin-left: 3rem;
+}
