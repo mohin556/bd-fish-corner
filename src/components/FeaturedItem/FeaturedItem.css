@@ -1,0 +1,17 @@
+.featured{
+    background-color: #F5F5F5;
+    height: 100vh;
+    padding: 5px;
+}
+.heading{
+    text-align: center;
+    font-weight: lighter;
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+.or-card{
+    margin: 1rem;
+    font-weight: bolder;
+}
