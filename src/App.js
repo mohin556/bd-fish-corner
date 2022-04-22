@@ -3,6 +3,7 @@ import './App.css';
 import FeaturedItem from './components/FeaturedItem/FeaturedItem';
 import Advantages from './components/Advantages/Advantages';
 import FishImage from './components/FishImage/FishImage';
+import DiscountOffer from './components/DiscountOffer/DiscountOffer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
        <FeaturedItem />
        <Advantages />
        <FishImage />
+       <DiscountOffer />
     </div>
   );
 }

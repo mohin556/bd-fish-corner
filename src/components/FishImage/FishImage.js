@@ -15,6 +15,10 @@ const FishImage = () => {
         {
             img : fish1,
             name : "PRODUCT"
+        },
+        {
+            img : fish1,
+            name : "PRODUCT"
         }
     ]
 

@@ -2,21 +2,22 @@
     height: 380px;
     width: 270px;
    
-    position: absolute;
+    
    
 }
 .f-name{
-    color: white;
+    color: black;
     
-   position: relative;
+  
 }
 
-.tryy{
+/* .tryy{
   
    color: aqua;
   
-}
+} */
 
 .fish-photo{
-    margin-left: 3rem;
+   margin-left: 5rem;
+   
 }
