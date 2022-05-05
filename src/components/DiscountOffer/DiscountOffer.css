@@ -11,6 +11,9 @@
  padding: 20px;
   align-items: center;
   justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .discount-left{
     height: 310px;
@@ -19,7 +22,7 @@
     margin-top: 9rem;
     margin-left: 2rem;
     background-image: url('../../Image/Discount.PNG');
-    color: blue;
+    color: white;
     background-color: #87B1CA;
     z-index: 5;
     background-repeat: no-repeat;
@@ -27,4 +30,14 @@
 }
 .blur{
     
+}
+.discount-right{
+    border: 2px solid red;
+    width: 55%;
+    margin-left: 2rem;
+    height: 310px;
+    margin-top: 9rem;
+    background-image: url(../../Image/Coral.PNG);
+    
+    background-position: 50%;
 }
