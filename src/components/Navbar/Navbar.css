@@ -4,16 +4,25 @@
     display: flex;
 }
 .nav-left{
-  margin-right: 860px;
+  margin-right: 650px;
+}
+.nav-right>a:hover{
+   
+    background-color: grey;
+    border-radius: 5px;
+    line-height: 28px;
+  
 }
 .nav-right{
     display: flex;
     text-align: center;
     justify-content: center;
+   
+    width: 40%;
 }
 .nav-right> a{
     text-decoration: none;
-
+    
 }
 
 .nav-right >a> h4{

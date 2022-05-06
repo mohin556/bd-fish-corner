@@ -1,0 +1,16 @@
+.home{
+    border: 2px solid red;
+    height: 96vh;
+    background-image: url(../../Image/homebg.PNG);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 1500px;
+    color: #018CCF;
+}
+.home-heading{
+    font-size: 48px;
+}
+.heading-2{
+    color:black;
+    margin-top: 208px;
+}
