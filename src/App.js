@@ -6,16 +6,24 @@ import FishImage from './components/FishImage/FishImage';
 import DiscountOffer from './components/DiscountOffer/DiscountOffer';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
+import { Routes, Route, Link } from "react-router-dom";
+import Admin from './components/Admin/Admin';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Home />
-       <FeaturedItem />
-       <Advantages />
-       <FishImage />
-       <DiscountOffer />
+     
+         {/* <Route exact path="/">
+           <Home></Home>
+          </Route> */}
+     
+   
+       <Routes>
+       <Header></Header>
+        <Route path="/home" element={<Home />} />
+        <Route path="/admin" element={<Admin />} />
+      </Routes>
     </div>
   );
 }
