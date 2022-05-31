@@ -14,14 +14,11 @@ function App() {
   return (
     <div className="App">
      
-         {/* <Route exact path="/">
-           <Home></Home>
-          </Route> */}
-     
-   
+     <Header></Header>    
        <Routes>
-       <Header></Header>
+        
         <Route path="/home" element={<Home />} />
+        <Route path="/admin" element={<Admin />} />
         <Route path="/admin" element={<Admin />} />
       </Routes>
     </div>

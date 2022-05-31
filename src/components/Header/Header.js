@@ -10,7 +10,10 @@ const Header = () => {
     return (
         <div>
              <Navbar/>
-             <Home />
+             <div>
+                <Home />
+             </div>
+             
              <FeaturedItem />
               <Advantages />
            <FishImage />
