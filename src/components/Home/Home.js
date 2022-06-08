@@ -1,12 +1,15 @@
 import React from 'react';
 import './Home.css';
 import homeImg from '../../Image/homebg.PNG';
+import sexond from '../../Image/Discount.PNG';
 
 const Home = () => {
     return (
         <div >
               <div className='home' >
                      <div className='home_Container' >
+
+
 
                      </div>
             

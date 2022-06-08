@@ -2,7 +2,7 @@ import React from 'react';
 import './Admin.css'
 const Admin = () => {
     return (
-        <div>
+        <div className='admin'>
             <h1>Admin page </h1>
             <h4> helllow   </h4>
         </div>

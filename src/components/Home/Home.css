@@ -6,6 +6,7 @@
     position: absolute;
     top: 10;
     opacity: 0.4;
+    
 }
 
 
@@ -13,7 +14,7 @@
 .home{
     border: 2px solid red;
     height: 96vh;
-    background-image: url(../../Image/homebg.PNG);
+    background-image: url(../../Image/bgg.jpg);
     background-repeat: no-repeat;
     background-position: cover;
     background-size: 1500px;

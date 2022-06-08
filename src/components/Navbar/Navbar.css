@@ -1,41 +1,87 @@
 .nav-main{
-    height: 65px;
+    height: 63px;
     background-color: lavender;
     display: flex;
+    align-items: center;
 }
-.nav-left{
+/* .nav-left{
   margin-right: 650px;
-}
-.nav-right>a:hover{
+} */
+/* .nav-right>a:hover{
    
     background-color: grey;
     border-radius: 5px;
     line-height: 28px;
   
-}
+} */
 .nav-right{
     display: flex;
     text-align: center;
-    justify-content: center;
+    width: 83vw;
+    justify-content: flex-end;
+   border: 2px solid black;
+   padding: 4px;
+   text-decoration: none;
    
-    width: 40%;
+    
 }
 .nav-right> a{
     text-decoration: none;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+    padding: 2px;
     
 }
+.nav-right> a :hover{
+    padding: 8px 10px;
+    background-color: aqua;
+}
 
-.nav-right >a> h4{
+/* .nav-right > h4{
     color: black;
     margin-left: 8px;
+    margin-top: 5px;
     font-size: large;
     padding: 5px;
  
     
 
     
+} */
+.nav-btn{
+    border: none;
+    text-decoration: none;
+    background: transparent;
+    color: white;
+    background-color: aqua;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    padding: 6px 16px;
 }
+/* .nav-btn>h4 :hover {
+    text-align: center;
+   
+    justify-content: center;
+    text-decoration: none;
+} */
+.nav-btn:hover{
+  background-color: aliceblue;
+  color: black;
+}
+.nav-option{
+    color: black;
+    /* margin-right: 8px;
+    margin-top: 6px; */
+    
+    
+    align-items: center;
+    border: 2px solid red;
+}
+/* .nav-option h4{
+    color: rgb(4, 4, 4);
+    text-decoration: none;
+} */
 .nav-img{
     height: 65px;
-    width: 250px;
+    width: 240px;
 }
