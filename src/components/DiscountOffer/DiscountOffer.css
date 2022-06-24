@@ -6,9 +6,9 @@
 }
 .discount-inside{
     border: 2px solid red;
-    height: 560px;
+    height: 500px;
     background-color: #FFFFFF;
- padding: 20px;
+ padding: 10px;
   align-items: center;
   justify-content: center;
   display: flex;

@@ -12,20 +12,20 @@ import './FeaturedItem.css'
 const FeaturedItem = () => {
     return (
         <div className='featured' >
-             <div className="heading">
+             <div className="headingg">
                  <h3>products</h3>
                  <h2>FEATURED ITEMS</h2>
                  </div> 
-                 <div className="card">
-                 <Card className='or-card' sx={{ maxWidth: 350 }}>
-            <CardActionArea>
-           <CardMedia
-          component="img"
-          height="300"
-         
-          image={test}
-          img
-          alt="green iguana"
+                 <div className="cardd">
+                 <Card className='or-cardd' sx={{ maxWidth: 350 }}>
+                <CardActionArea>
+                <CardMedia
+                component="img"
+                 height="300"
+           
+                image={test}
+                 img
+                 alt="green iguana"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
@@ -38,7 +38,7 @@ const FeaturedItem = () => {
       </CardActionArea>
     </Card>
 
-    <Card className='or-card' sx={{ maxWidth: 350 }}>
+    <Card className='or-cardd' sx={{ maxWidth: 350 }}>
             <CardActionArea>
            <CardMedia
           component="img"
@@ -60,7 +60,7 @@ const FeaturedItem = () => {
     </Card>
 
 
-    <Card className='or-card' sx={{ maxWidth: 350 }}>
+    <Card className='or-cardd' sx={{ maxWidth: 350 }}>
             <CardActionArea>
            <CardMedia
           component="img"
@@ -80,8 +80,10 @@ const FeaturedItem = () => {
         </CardContent>
       </CardActionArea>
     </Card>
+
     
-    <Card className='or-card' sx={{ maxWidth: 350 }}>
+    
+    <Card className='or-cardd' sx={{ maxWidth: 350 }}>
             <CardActionArea>
            <CardMedia
           component="img"
@@ -97,7 +99,7 @@ const FeaturedItem = () => {
           </Typography>
           <Typography variant="body2" color="text.secondary">
           $20.00
-           extra
+         
           </Typography>
         </CardContent>
       </CardActionArea>

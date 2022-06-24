@@ -1,0 +1,17 @@
+.add-form{
+    border: 1px solid red;
+    height: 80vh;
+    width: 45%;
+    background-color: #F5F5F5;
+    padding: 25px;
+}
+.input-frm{
+    width: 75%;
+    height: 45px;
+    padding: 2px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: grey;
+    font-size: 22px;
+    margin-top: 2rem;
+}

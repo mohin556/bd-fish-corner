@@ -29,7 +29,7 @@ const Navbar = () => {
                        
                        <Link className='nav-option' to="/admin"><h4>Admin</h4></Link>
                        <Button
-        className='nav-option'
+        className='nav-option dropdown '
         id="basic-button"
         aria-controls={open ? 'basic-menu' : undefined}
         aria-haspopup="true"
@@ -50,11 +50,15 @@ const Navbar = () => {
         
         <MenuItem onClick={handleClose}><Link  to="/admin">Admin</Link></MenuItem>
         <MenuItem onClick={handleClose}>Contact</MenuItem>
+        {/* <MenuItem onClick={handleClose}><Link  to="/admin">Admin</Link></MenuItem> */}
+        {/* <MenuItem onClick={handleClose}>Edit</MenuItem>  */}
         <MenuItem onClick={handleClose}>Logout</MenuItem>
       </Menu>
+                   
+                   
                        {/* <Link className='nav-option' to="/admin"><h4>Service</h4></Link> */}
-                       <Link className='nav-option' to="/admin"><h4>contact</h4></Link>
-                       <Link className='nav-option' to="/admin"><h4>login</h4></Link>
+                       <Link className='nav-option' to="/contact"><h4>contact</h4></Link>
+                       <Link className='nav-option' to="/login"><h4>login</h4></Link>
                        {/* <Link className='nav-btn' to="/signIn"><h4>Sign Up</h4></Link> */}
                        <div  className='nav-btn' >
       <Button

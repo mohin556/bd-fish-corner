@@ -2,16 +2,22 @@
     background-color: #F5F5F5;
     height: 100vh;
     padding: 5px;
+    border: 4px solid green;
 }
-.heading{
+.headingg{
     text-align: center;
     font-weight: lighter;
+    padding-top: 25px;
+  
 }
-.card{
+.cardd{
     display: flex;
     justify-content: center;
+ margin-top: 85px;
+    
 }
-.or-card{
+.or-cardd{
     margin: 1rem;
     font-weight: bolder;
+    margin-left: 10px;
 }

@@ -1,0 +1,14 @@
+.admin{
+    display: flex;
+}
+.admin-left{
+    height: 100vh;
+    background-color: aquamarine;
+    width: 22%;
+    padding: 25px;
+}
+.admin-right{
+    background-color: beige;
+    width: 78%;
+    padding: 25px;
+}

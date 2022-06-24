@@ -24,7 +24,7 @@ const FishImage = () => {
 
 
     return (
-        <div  >
+        <div  className='fish-imgg' >
             <p>Just test my self</p>
               <div className='fish-img'>
               {

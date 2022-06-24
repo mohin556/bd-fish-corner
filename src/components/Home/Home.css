@@ -12,12 +12,12 @@
 
 
 .home{
-    border: 2px solid red;
+   
     height: 96vh;
     background-image: url(../../Image/bgg.jpg);
     background-repeat: no-repeat;
     background-position: cover;
-    background-size: 1500px;
+    background-size: 1700px;
     color: #018CCF;
     position: relative;
    

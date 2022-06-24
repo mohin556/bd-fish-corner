@@ -9,21 +9,25 @@ import Home from './components/Home/Home';
 import { Routes, Route, Link, BrowserRouter } from "react-router-dom";
 import Admin from './components/Admin/Admin';
 import Header from './components/Header/Header';
+import AddEvents from './components/AddEvents/AddEvents'
+import Login from './components/Login/Login';
 
 function App() {
   return (
     <div className="App">
-     
-     <Header></Header> 
         
-       <Routes>
+     
+    
+     <Routes>
        
-        <Route exact path="/" element={<Home />} />
-        <Route path="admin" element={<Admin />} />
+        <Route exact path="/" element={<Header />} />
+        <Route path="/admin" element={<Admin />} />
+        <Route path="login" element={<Login />} />
+        <Route path="add." element={<AddEvents />} />
         {/* <Route path="/admin" element={<Admin />} /> */}
        
       </Routes>
-      
+     
     </div>
   );
 }
