@@ -1,0 +1,10 @@
+.main-container{
+ 
+   justify-content: center;
+   height: 100vh;
+   padding-top: 135px;
+}
+
+.d-img{
+    height: 350px;
+}

@@ -1,0 +1,19 @@
+
+.item{
+    margin-top: 18px;
+    
+}
+
+.oder-btn{
+    margin-left: 20px;
+    width: 30%;
+    font-size: 20px;
+   align-items: flex-end;
+   height: 38px;
+   color: aliceblue;
+   background-color: #263d7a;
+   cursor: pointer;
+   font-weight: bold;
+   align-content: flex-end;
+   border-radius: 5px;
+}

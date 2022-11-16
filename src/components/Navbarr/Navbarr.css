@@ -1,7 +1,7 @@
 .nav-main{
-    height: 63px;
-    background-color: lavender;
-    display: flex;
+    height: 100vh;
+    
+   
     align-items: center;
 }
 /* .nav-left{
@@ -69,22 +69,34 @@
   color: black;
 }
 .nav-option{
-    color: black;
+  
     /* margin-right: 8px;
     margin-top: 6px; */
-    
+    font-size: 20px;
+    font-weight: bolder;
     
     align-items: center;
-    border: 2px solid red;
+    
+    
 }
+.nav-clr{
+    background-color:#455A64;
+}
+.nav-brand{
+   
+  
+}
+
 /* .nav-option h4{
     color: rgb(4, 4, 4);
     text-decoration: none;
 } */
 .nav-img{
-    height: 65px;
-    width: 240px;
+    height: 60px;
+    width: 340px;
+    text-align: end;
 }
 .dropdown{
     background-color: red;
 }
+

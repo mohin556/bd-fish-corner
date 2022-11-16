@@ -1,23 +1,22 @@
 import React from 'react';
 import './Header.css';
-import Navbar from './../Navbar/Navbar';
 import Home from './../Home/Home';
 import FeaturedItem from './../FeaturedItem/FeaturedItem';
 import Advantages from './../Advantages/Advantages';
 import FishImage from './../FishImage/FishImage';
-import DiscountOffer from './../DiscountOffer/DiscountOffer';
+
+import Navbarr from '../Navbarr/Navbarr';
+import Footer from '../Footer/Footer';
+
 const Header = () => {
     return (
-        <div>
-             <Navbar/>
-             <div>
-                <Home />
-             </div>
-             
-             <FeaturedItem />
+        <div className='header'>
+            <Navbarr />
+              <Home />
+              <FeaturedItem />
+              <FishImage />
               <Advantages />
-           <FishImage />
-            <DiscountOffer />
+            <Footer></Footer>
             
         </div>
     );

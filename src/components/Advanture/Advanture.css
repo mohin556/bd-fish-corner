@@ -3,7 +3,17 @@
     
 }
 .advanture{
-    margin-right: 2rem;
-    justify-content: center;
-    margin-top: 5rem;
+    /* margin-right: 3rem; */
+   justify-content: center;
+    
+    margin-bottom: 2rem;
+   padding: 5px;
+  cursor: pointer;
+
+   
+  
+}
+.card-extra:hover{
+    background-color: gray;
+    color: white;
 }

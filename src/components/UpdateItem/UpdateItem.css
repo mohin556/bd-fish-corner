@@ -1,0 +1,47 @@
+.update{
+    display: flex;
+  margin-top: 100px;
+   background-color: whitesmoke;
+   padding: 25px;
+   border-radius: 5px;
+   
+}
+.update-1{
+    text-align: left;
+}
+.update-img{
+    width: 250px;
+}
+.update-col2{
+  
+   background-color: #F5F5DC;
+   width: 500px;
+   border-radius: 5px;
+}
+.update-right form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.update-right form input,textarea{
+    width: 60%;
+    margin-bottom: 10px;
+    height: 50px;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.input-frm{
+    width: 95%;
+    height: 45px;
+    padding: 2px;
+    border-radius: 3px;
+   
+    color: grey;
+   
+    margin-top: 2rem;
+}

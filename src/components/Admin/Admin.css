@@ -3,12 +3,27 @@
 }
 .admin-left{
     height: 100vh;
+    color: whitesmoke;
     background-color: aquamarine;
     width: 22%;
     padding: 25px;
+    padding-top: 85px;
+    background-image: url('../../Image/adminbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.admin-left h4{
+    text-decoration: none;
+    color: beige;
 }
 .admin-right{
     background-color: beige;
+    color: white;
     width: 78%;
     padding: 25px;
+    padding-top: 85px;
+    background-image: url('../../Image/advantage1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }

@@ -1,0 +1,11 @@
+.view-details{
+    padding: 25px;
+
+}
+.view-card{
+    border: 2px solid red;
+    align-items: center;
+    margin: auto;
+    padding: 15px;
+  
+}

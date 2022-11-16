@@ -2,43 +2,44 @@ import React from 'react';
 import './AddEvents.css';
 import { useForm } from "react-hook-form";
 import { Link } from 'react-router-dom';
+import axios from 'axios';
 const AdEvents = () => {
-    const { register, handleSubmit, watch, formState: { errors } } = useForm();
-    const onSubmit = data => console.log(data);
+    const { register, handleSubmit } = useForm();
+    const onSubmit = data => {   
+        console.log(data)
+       axios.post('http://localhost:5000/services',data)
+       .then(res => {
+        
+        if(res.data.insertedId){
+         alert('Id Created by MongoDb')
+        }
+        
+        
+     } )
+
+
+    };
 
     return (
         <div>
-         <div className="admin">
-          <div className="admin-left">
-             
-             <h4> helllow   </h4>
-             <Link to='/add.'  > <h4>Add Events</h4></Link>
+           <div className="admin">
 
-        </div>
+               <div className="admin-left">
+                <Link to='/total'  >    <h4>Item List</h4></Link>
+
+              </div>
           
-         <div className="admin-right">
-             {/* <h1>Admin page </h1> */}
-             <form className='add-form' onSubmit={handleSubmit(onSubmit)}>
-                <div>
-                    <h3>Add Events</h3>
-                </div>
-      {/* register your input into the hook by invoking the "register" function */}
-      <input className='input-frm' defaultValue="test" {...register("example")} />
-     
-      <input className='input-frm' defaultValue="test" placeholder='File' {...register("example")} />
-      <br />
-
-      <input className='input-frm' type="text" placeholder='Text' />
-      <br />
-     <br />
-      {/* include validation with required or other standard HTML validation rules */}
-      <input {...register("exampleRequired", { required: true })} />
-      {/* errors will return when field validation fails  */}
-      {errors.exampleRequired && <span>This field is required</span>}
-      
-      <input type="submit" />
-    </form>
-         </div>
+    <div className="admin-right">
+             <h1>Add Service </h1>
+            <form className='add-form'  onSubmit={handleSubmit(onSubmit)}>
+               <input {...register("Name")} placeholder="Name" />
+               <textarea {...register("description")} placeholder="Description" />
+               <input type="text" {...register("image")} placeholder="image Url" />
+               <input type="number" {...register("price")} placeholder="price" />
+        
+                <input type="submit" />
+           </form>
+     </div>
        
 
 

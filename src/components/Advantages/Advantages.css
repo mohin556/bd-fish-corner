@@ -1,18 +1,24 @@
 .advantages{
-    display: flex;
+    display:flex ;
     justify-content: center;
-    margin-left: 5px;
+    /* margin-left: 5px; */
    
+    padding: 70px; 
+    height: 80vh;
+
+  
+  
     
 }
 .advantage-heading{
   border-top: 7px solid gray;
-  margin-top: 6rem;
+ 
 }
 .advantage{
     height: 100vh;
     justify-content: center;
-    padding: 5px;
     
-    
+    margin-top: 30px;
+   
+   
 }

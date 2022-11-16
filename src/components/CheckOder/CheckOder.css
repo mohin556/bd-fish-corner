@@ -1,0 +1,10 @@
+.text-left{
+   border-radius: 5px;
+    word-wrap: break-word;
+ background-color: beige;
+   top: 10%;
+   position: fixed;
+   left: 50%;
+   transform: translate(-50%, 0);
+   padding: 15px;
+}
