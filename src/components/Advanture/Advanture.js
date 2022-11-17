@@ -17,10 +17,7 @@ const Advanture = ({advantage}) => {
 
     return (
         <div className='  advanture col-sm-12 col-md-6 col-lg-3 ' >
-            {/* <img className='advantage-image' src={img} alt="" /> 
-            
-             <h3> {name}  </h3>
-            <h4> {text}</h4> */}
+        
         <div onClick={()=>handleDetail(`/detail/${advantage._id}`)}   class="card " style={{ width: "18rem"}}>
           <div>
                <img src={image} class="card-img-top" alt="..."/>
